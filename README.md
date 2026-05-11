@@ -62,3 +62,25 @@ Finance-Tracker-AI/
 ├── postcss.config.mjs
 ├── tsconfig.json
 └── README.md
+
+
+***Installation***
+To run this project on your computer, follow these steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Backendskhik/Finance-Tracker-AI.git
+2. Open the project folder
+cd Finance-Tracker-AI
+3. Install dependencies
+npm install
+4. Create environment file
+
+Create a .env file in the main project folder and add your database connection:
+
+DATABASE_URL=your_postgresql_database_url_here
+5. Run the development server
+npm run dev
+6. Open the project in your browser
+http://localhost:3000
